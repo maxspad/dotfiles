@@ -76,7 +76,7 @@
   ];
 
   # Enable hyprland
-  programs.hyprland.enable = true;
+  # programs.hyprland.enable = true;
 
 
   # Some programs need SUID wrappers, can be configured further or are
