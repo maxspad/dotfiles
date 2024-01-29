@@ -19,11 +19,12 @@
 	p7zip
 
 	#utils
-	ripgrep
-	jq
-	yq-go
-	eza
+	ripgrep # recursive grep
+	jq #json
+	yq-go # yaml
+	eza # better ls
 	fzf
+	glow # markdown in terminal
 
 	#networking
 	mtr
@@ -57,4 +58,30 @@
 	pciutils # lspci
 	usbutils # lsusb
   ];
+
+  # git configuration
+  programs.git = {
+	enable = true;
+	userName = "Maxwell Spadafore";
+	userEmail = "maxspad@umich.edu";
+  };
+
+  # starship config
+  programs.starship = {
+	enable = true;
+	# TODO: Add more custom settings here
+  };
+
+  # TODO: Alacritty
+
+  # TODO: some type of window manager/desktop
+
+  # bash config
+  programs.bash = {
+	enable = true;
+	enableCompletion = true;
+	shellAliases = {
+		ls = "eza";
+	};
+  };
 }
