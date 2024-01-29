@@ -75,6 +75,7 @@
   # TODO: Alacritty
 
   # TODO: some type of window manager/desktop
+  wayland.windowManager.hyprland.enable = true;
 
   # bash config
   programs.bash = {
