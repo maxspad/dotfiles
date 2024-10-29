@@ -1,0 +1,9 @@
+name: dev
+channels:
+  - conda-forge
+dependencies:
+  - zsh
+  - git
+  - eza
+  - starship
+prefix: /home/maxspad/.conda/envs/dev
