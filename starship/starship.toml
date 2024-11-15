@@ -7,6 +7,8 @@ $directory\
 $git_branch\
 $git_status\
 [](fg:#394260 bg:#212736)\
+$conda\
+$python\
 $nodejs\
 $rust\
 $golang\
@@ -56,6 +58,15 @@ format = '[[ $symbol ($version) ](fg:#769ff0 bg:#212736)]($style)'
 symbol = ""
 style = "bg:#212736"
 format = '[[ $symbol ($version) ](fg:#769ff0 bg:#212736)]($style)'
+
+[python]
+symbol = ""
+style = "bg:#212736"
+format = '[[ $symbol ($version) ](fg:#769ff0 bg:#212736)]($style)'
+
+[conda]
+symbol = "󱔎"
+format = '[[ $symbol ($environment) ](fg:#769ff0 bg:#212736)]($style)'
 
 [time]
 disabled = false
